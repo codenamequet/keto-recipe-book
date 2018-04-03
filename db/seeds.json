@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Garlic Roasted Chicken Breast",
+        "category": "Entree",
+        "cookTime": "40 min",
+        "instruction":
+            "1. Preheat oven to 500°F with rack in upper third.  2. Mince and mash garlic to a paste with 1/2 teaspoon salt, then transfer to a bowl. Stir in oregano, red-pepper flakes, oil, 1/2 teaspoon salt, and 1/2 teaspoon pepper.  3. Cut a 2-inch-long pocket (about 1 1/2 inches deep) horizontally in side of each breast half and spread 1/2 teaspoon garlic mixture into each pocket. Coat chicken with remaining garlic mixture.  4. Roast chicken, skin sides up, in a foil-lined large shallow baking pan until just cooked through, 20 to 25 minutes.",
+        "image":
+            "https://assets.epicurious.com/photos/578d1f9698e0fc875500146e/master/pass/garlic-roasted-chicken-breasts.jpg",
+        "ingredients": [
+            "3 large garlic cloves",
+            "1 teaspoon dried oregano",
+            "Scant 1/2 teaspoon dried hot red-pepper flakes",
+            "2 tablespoons extra-virgin olive oil",
+            "4 chicken breast halves with skin and bone (2 to 2 1/4 lb total)"
+        ]
+    },
+    {
+        "name": "Scrambled Eggs",
+        "category": "Breakfast",
+        "cookTime": "10 min",
+        "instruction":
+            "1. Turn stove top to medium and put butter into pan  2. Crack open eggs into a bowl.  3. Whisk eggs inside of bowl until everything is mixed  4. Add eggs to frying pan and add salt and pepper to taste.  5. Let items cook for 2 - 3 mins and then add cheese.  6. Start moving edges of egg towards the center to create scrambled effect",
+        "image": "https://toriavey.com/images/2014/06/How-to-Scramble-Eggs.jpg",
+        "ingredients": ["Eggs", "Salt", "Pepper", "Butter", "Cheese"]
+    },
+    {
+        "name": "Tuna Salad",
+        "category": "Side",
+        "cookTime": "5 min",
+        "instruction":
+            "1. Combine 1 large pouch of tuna with 3 tbsp of mayonnaise and mix thoroughly.  2. Add favorite spices. Optionally, add diced pickles",
+        "image":
+            "http://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/1/30/0/FNK_Tuna-Salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1391769187151.jpeg",
+        "ingredients": ["Tuna", "Mayonnaise", "Spices", "(Opt) Pickles"]
+    }
+]

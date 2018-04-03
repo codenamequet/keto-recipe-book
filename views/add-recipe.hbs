@@ -1,0 +1,13 @@
+<div>
+    <h1>Add a new recipe here</h1>
+
+    <form action='/recipes/add-recipe' method='post' class='new-recipe-form'>
+        <input type='text' name='recipe[name]' placeholder='Name '>
+        <input type='text' name='recipe[category]' placeholder='Category'>
+        <input type='text' name='recipe[cookTime]' placeholder='Cook Time'>
+        <input type='text' name='recipe[instruction]' placeholder='Instructions' class='tall-input'>
+        <input type='text' name='recipe[image]' placeholder='Image URL'>
+        <input type='text' name='recipe[ingredients]' placeholder='Ingredients as array ' class='tall-input'>
+        <input type='submit' value='Add Recipe' class='submit-button'>
+    </form>
+</div>

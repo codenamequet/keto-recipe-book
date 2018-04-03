@@ -1,0 +1,7 @@
+.welcome-image {
+    background-image: url("https://i.pinimg.com/736x/e1/96/5f/e1965f557c8dd427021587460b35ff40--air-flyer-bacon-wrapped-shrimp.jpg");
+    background-size: cover;
+    height: 60vh;
+    width: 70vw;
+    margin: 0 auto 15px auto;
+}

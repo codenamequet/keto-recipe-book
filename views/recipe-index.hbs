@@ -1,0 +1,16 @@
+<div>
+    <h1 class='center-align'>Recipes</h1>
+
+    <div>
+        {{#each recipes as |recipe index|}}
+        <h2>
+            {{#if recipe.image}}
+            <img src={{recipe.image}} alt='food-image' class='food-image'></img>
+            {{else}}
+            <img src='https://d30y9cdsu7xlg0.cloudfront.net/png/340719-200.png' alt='food-image' class='food-image'></img>
+            {{/if}}
+            <a href='/recipes/{{recipe.name}}'>{{recipe.name}}</a>
+        </h2>
+        {{/each}}
+    </div>
+</div>

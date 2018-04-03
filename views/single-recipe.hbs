@@ -1,0 +1,33 @@
+<div>
+    <h1>{{recipe.name}}</h1>
+
+    <main>
+        <h2>
+            <div class='recipe-category'>Category: {{recipe.category}}</div>
+            <div class='recipe-cooktime'>Cook Time:{{recipe.cookTime}}</div>
+            <section class='ingredients-image'>
+                <div class='recipe-ingredients'>
+                    <ul class='ingredients-list'>
+                        Ingredients {{#each recipe.ingredients}}
+                        <li>{{this}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+                <img src={{recipe.image}} class='recipe-image' />
+            </section>
+            <div class='recipe-instructions'>{{recipe.instruction}}</div>
+        </h2>
+    </main>
+    <form action=' /recipes/{{recipe.name}}?_method=put' method='post' class='new-recipe-form'>
+        <input type='text' name='recipe[name]' value='{{recipe.name}}'>
+        <input type='text' name='recipe[category]' value='{{recipe.category}}'>
+        <input type=' text' name='recipe[cookTime]' value='{{recipe.cookTime}} '>
+        <input type='text' name='recipe[instruction]' value='{{recipe.instruction}}' class='tall-input'>
+        <input type='text' name='recipe[image]' value='{{recipe.image}}'>
+        <input type='text' name='recipe[ingredients] ' value='{{recipe.ingredients}}' class='tall-input'>
+        <input type='submit' value='Update Recipe' class='submit-button'>
+    </form>
+    <form action='/recipes/{{recipe.name}}?_method=delete' method='post'>
+        <input type='submit' value='Delete Recipe' class='submit-button '>
+    </form>
+</div>
