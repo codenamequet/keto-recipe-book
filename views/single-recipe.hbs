@@ -2,9 +2,10 @@
     <h1>{{recipe.name}}</h1>
 
     <main>
-        <h2>
+        <h5>
             <div class='recipe-category'>Category: {{recipe.category}}</div>
             <div class='recipe-cooktime'>Cook Time:{{recipe.cookTime}}</div>
+        </h5>
             <section class='ingredients-image'>
                 <div class='recipe-ingredients'>
                     <ul class='ingredients-list'>
@@ -16,7 +17,7 @@
                 <img src={{recipe.image}} class='recipe-image' />
             </section>
             <div class='recipe-instructions'>{{recipe.instruction}}</div>
-        </h2>
+        
     </main>
     <form action=' /recipes/{{recipe.name}}?_method=put' method='post' class='new-recipe-form'>
         <input type='text' name='recipe[name]' value='{{recipe.name}}'>

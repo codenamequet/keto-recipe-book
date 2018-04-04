@@ -1,19 +1,19 @@
 <div>
-    <h1 class='center-align'>Recipes</h1>
-
+    <div class='recipe-title'>
+        <h1 class='center-align'>Recipes</h1>
+    </div>
     <div class='row'>
-        <div class='food-image-container'>
+    <div class='col s12 offset-s4'>
         {{#each recipes as |recipe index|}}
             {{#if recipe.image}}
-            <img src={{recipe.image}} alt='food-image' class='food-image'></img>
+            <a href='/recipes/{{recipe.name}}' class='food-name center-align'><img src={{recipe.image}} alt='food-image' class='food-image' /></a>
             {{else}}
-            <img src='https://d30y9cdsu7xlg0.cloudfront.net/png/340719-200.png' alt='food-image' class='food-image'></img>
-        </div>
+            <a href='/recipes/{{recipe.name}}' class='food-name center-align'><img src='https://d30y9cdsu7xlg0.cloudfront.net/png/340719-200.png' alt='food-image' class='food-image' /></a>
             {{/if}}
-    </div>
         <div class='food-name-container'>
             <h3><a href='/recipes/{{recipe.name}}' class='food-name center-align'>{{recipe.name}}</a></h3>
         </div>
         {{/each}}
-    
+    </div>
+    </div>   
 </div>
