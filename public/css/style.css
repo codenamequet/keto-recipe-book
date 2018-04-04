@@ -5,3 +5,25 @@
     width: 70vw;
     margin: 0 auto 15px auto;
 }
+.food-image {
+    /* height: 45vh;
+    width: 55vw; */
+    height: 25vh;
+    width: 25vw;
+}
+.food-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* .food-image {
+    height: 45vh;
+    width: 55vw;
+    display: block;
+    margin: 0 auto;
+} */
+.food-name {
+    color: black;
+    /* display: inline-block;
+    margin: 0 auto; */
+}
