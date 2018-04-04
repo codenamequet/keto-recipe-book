@@ -12,7 +12,7 @@ const router = express.Router()
 //         })
 // })
 
-router.get('/recipes', req, res => {
+router.get('/', (req, res) => {
     res.render('recipe-index')
 })
 
@@ -35,7 +35,7 @@ router.get('/:name', (req, res) => {
 })
 
 router.post('/add-recipe', (req, res) => {
-    console.log('I'm in the router')
+    console.log('I\'m in the router')
     Recipe.create(req.body.recipe)
         .then(recipe => {
             res.redirect(`/recipes/${recipe.name}`)
