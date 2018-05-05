@@ -13,9 +13,9 @@ router.get('/', (req, res) => {
          })
 })
 
-// router.get('/', (req, res) => {
-//     res.render('recipe-index')
-// })
+router.get('/recipes', (req, res) => {
+    res.render('add-recipe')
+})
 
 router.get('/add-recipe', (req, res) => {
     res.render('add-recipe')
