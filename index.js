@@ -31,11 +31,10 @@ app.get('/', (req, res) => {
 })
 
 app.post("/", (req, res) => {
-    console.log('I\'m here!')
     res.json(req.body)
 })
 
-app.set('port', process.env.PORT || 3000)
+app.set('port', process.env.PORT || 4000)
 
 app.listen(port, () => {
     console.log('It\'s Lit 🔥🔥🔥')
